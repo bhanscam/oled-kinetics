@@ -26,11 +26,11 @@ Provide experimental data in text files labeled `devicename_pl.txt` or `devicena
 
 3. Compile fortran library for python to call
 
-	f2py3 -c -m kinetics kinetics.F
+	`f2py3 -c -m kinetics kinetics.F`
 
 4. Run input file
 
-	python input_analyze.py
+	`python input_analyze.py`
 
 See `examples` directory for example input files and basic usage options:
 - PL analysis or fit
